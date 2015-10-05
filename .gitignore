@@ -30,3 +30,11 @@
 
 # Debug files
 *.dSYM/
+/test/Release
+/test/Debug
+/sln/Debug
+/clib_sunred/Release
+/clib_sunred/Debug
+/cpptest/Debug
+/BananaOS/Debug
+*.sdf

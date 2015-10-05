@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib_sunred">
+      <UniqueIdentifier>{5bb1f1d0-b8b6-4bf5-b7ed-dd6e2c8b2d0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="heheA.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="heheB.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tryhehe.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="try_hehe2.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="definetest.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fifo_l_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dll_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fifo_sort_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quicksort_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clib_sunred\lib_sunred\win\c\algorithm_qsort_func.c">
+      <Filter>lib_sunred</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clib_sunred\lib_sunred\win\c\data_bst_func.c">
+      <Filter>lib_sunred</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clib_sunred\lib_sunred\win\c\data_fifo_func.c">
+      <Filter>lib_sunred</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clib_sunred\lib_sunred\win\c\dlllib_sunred.c">
+      <Filter>lib_sunred</Filter>
+    </ClCompile>
+    <ClCompile Include="..\clib_sunred\lib_sunred\win\c\util_mem_func.c">
+      <Filter>lib_sunred</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="trytest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hehetry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

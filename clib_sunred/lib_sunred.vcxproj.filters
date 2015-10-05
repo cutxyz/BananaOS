@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{04aedf9c-08d3-49db-a9e6-4505fc1cb817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zip">
+      <UniqueIdentifier>{3fd1635f-feb1-4374-9cee-742c9f72619a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{1785acbb-2d25-490d-811d-2347519c5b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{c91df564-a3d1-42ba-bc77-1610d25a40e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="secure">
+      <UniqueIdentifier>{0acb41cc-ec41-4ee7-a6a9-bd4a67cff091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{6b6e801c-8183-4b55-9769-5ea4ee6a6895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{7eac385a-9494-452e-afab-6a52f7a625f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm">
+      <UniqueIdentifier>{4e94e8c1-2572-4977-93bd-fa3dfd4151b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\data">
+      <UniqueIdentifier>{41375438-a6e3-471c-86a0-a4145facd757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\algorithm">
+      <UniqueIdentifier>{b5aa8ec9-86e5-4b10-b000-1cd952940f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\util">
+      <UniqueIdentifier>{728c65b6-9a66-4553-a8af-65ab9d42b647}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="data\avlbst_node.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\block_header.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bst.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bst_method.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bst_new_release_node.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bst_node.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\container.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\hash_template.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\iterator.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\iterator_linkedlist_template.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\linked_list_node_template.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\rbbst_node.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lib_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\defualt_compiler32bit_type.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\export_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bst_init_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bst_find_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bst_minmax_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bst_add_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bstnode_define_clean.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bstnode_define_declare.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bst_remove_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\iterator_bst_itr.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\iterator_bst_posorder_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="util\c_mem_load.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\memcopy.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\SSE_memcopy.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math_type.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="util\sr_memcopy.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\object_type.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\allocator_type.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="data\iterator_bst_preorder_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\iterator_bst_inorder_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\avlbstnode_define_declare.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\avlbstnode_define_clean.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\avlbst_init_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\avlbst_add_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\avlbst_remove_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\fifo_ring.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\rbbstnode_define_clean.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\rbbstnode_define_declare.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\rbbst_init_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\rbbst_add_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\rbbst_remove_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bst_clean_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bst_clone_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\bst_copy_template.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\block_static_mem.c">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\blockheader_define_clean.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\blockheader_define_declare.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\quicksort.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="data\array_method.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\compareto.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\array.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="data\fifo.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="clib_sunred_interal.h" />
+    <ClInclude Include="data\fifo_ring_header.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\build_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\data\sr_fifo.h">
+      <Filter>include\data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\data\sr_stack.h">
+      <Filter>include\data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\data\sr_string.h">
+      <Filter>include\data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\algorithm\sr_sort.h">
+      <Filter>include\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\data\sr_bst.h">
+      <Filter>include\data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\sr_mem.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\data\sr_data.h">
+      <Filter>include\data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\algorithm\sr_algorithm.h">
+      <Filter>include\algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\sr_util.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\clib_sunred.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dll_clib_sunred.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="data\bst_avltree.c">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="data\bst_common.c">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="data\bst_redblacktree.c">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="util\c_mem_load.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="data\iterator_bst_itr.c">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\quicksort.c">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\quicksort_int_array.c">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\checkorder_template.c">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="data\fifo_ring_template.c">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\quicksort_template.c">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\insertsort_template.c">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="data\fifo_ring.c">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="data\fifo_ring_int.c">
+      <Filter>data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib_sunred.def" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="algorithm\quicksort.h" />
+    <ClInclude Include="clib_sunred_interal.h" />
+    <ClInclude Include="data\array.h" />
+    <ClInclude Include="data\array_method.h" />
+    <ClInclude Include="data\avlbstnode_define_clean.h" />
+    <ClInclude Include="data\avlbstnode_define_declare.h" />
+    <ClInclude Include="data\avlbst_add_template.c" />
+    <ClInclude Include="data\avlbst_init_template.c" />
+    <ClInclude Include="data\avlbst_node.h" />
+    <ClInclude Include="data\avlbst_remove_template.c" />
+    <ClInclude Include="data\blockheader_define_clean.h" />
+    <ClInclude Include="data\blockheader_define_declare.h" />
+    <ClInclude Include="data\block_header.h" />
+    <ClInclude Include="data\block_static_mem.c" />
+    <ClInclude Include="data\bst.h" />
+    <ClInclude Include="data\bstnode_define_clean.h" />
+    <ClInclude Include="data\bstnode_define_declare.h" />
+    <ClInclude Include="data\bst_add_template.c" />
+    <ClInclude Include="data\bst_clean_template.c" />
+    <ClInclude Include="data\bst_clone_template.c" />
+    <ClInclude Include="data\bst_copy_template.c" />
+    <ClInclude Include="data\bst_find_template.c" />
+    <ClInclude Include="data\bst_init_template.c" />
+    <ClInclude Include="data\bst_method.h" />
+    <ClInclude Include="data\bst_minmax_template.c" />
+    <ClInclude Include="data\bst_new_release_node.h" />
+    <ClInclude Include="data\bst_node.h" />
+    <ClInclude Include="data\bst_remove_template.c" />
+    <ClInclude Include="data\compareto.h" />
+    <ClInclude Include="data\container.h" />
+    <ClInclude Include="data\fifo.h" />
+    <ClInclude Include="data\fifo_ring.h" />
+    <ClInclude Include="data\fifo_ring_header.h" />
+    <ClInclude Include="data\hash_template.h" />
+    <ClInclude Include="data\iterator.h" />
+    <ClInclude Include="data\iterator_bst_inorder_template.c" />
+    <ClInclude Include="data\iterator_bst_itr.h" />
+    <ClInclude Include="data\iterator_bst_posorder_template.c" />
+    <ClInclude Include="data\iterator_bst_preorder_template.c" />
+    <ClInclude Include="data\iterator_linkedlist_template.h" />
+    <ClInclude Include="data\linked_list_node_template.h" />
+    <ClInclude Include="data\rbbstnode_define_clean.h" />
+    <ClInclude Include="data\rbbstnode_define_declare.h" />
+    <ClInclude Include="data\rbbst_add_template.c" />
+    <ClInclude Include="data\rbbst_init_template.c" />
+    <ClInclude Include="data\rbbst_node.h" />
+    <ClInclude Include="data\rbbst_remove_template.c" />
+    <ClInclude Include="include\algorithm\sr_algorithm.h" />
+    <ClInclude Include="include\algorithm\sr_sort.h" />
+    <ClInclude Include="include\build_config.h" />
+    <ClInclude Include="include\clib_sunred.h" />
+    <ClInclude Include="include\data\sr_bst.h" />
+    <ClInclude Include="include\data\sr_data.h" />
+    <ClInclude Include="include\data\sr_fifo.h" />
+    <ClInclude Include="include\data\sr_stack.h" />
+    <ClInclude Include="include\data\sr_string.h" />
+    <ClInclude Include="include\defualt_compiler32bit_type.h" />
+    <ClInclude Include="include\dll_clib_sunred.h" />
+    <ClInclude Include="include\export_config.h" />
+    <ClInclude Include="include\lib_config.h" />
+    <ClInclude Include="include\type.h" />
+    <ClInclude Include="include\util\sr_mem.h" />
+    <ClInclude Include="include\util\sr_util.h" />
+    <ClInclude Include="math\math_type.h" />
+    <ClInclude Include="util\allocator_type.h" />
+    <ClInclude Include="util\c_mem_load.h" />
+    <ClInclude Include="util\memcopy.h" />
+    <ClInclude Include="util\object_type.h" />
+    <ClInclude Include="util\sr_memcopy.h" />
+    <ClInclude Include="util\SSE_memcopy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="algorithm\checkorder_template.c" />
+    <ClCompile Include="algorithm\insertsort_template.c" />
+    <ClCompile Include="algorithm\quicksort.c" />
+    <ClCompile Include="algorithm\quicksort_int_array.c" />
+    <ClCompile Include="algorithm\quicksort_template.c" />
+    <ClCompile Include="data\bst_avltree.c" />
+    <ClCompile Include="data\bst_common.c" />
+    <ClCompile Include="data\bst_redblacktree.c" />
+    <ClCompile Include="data\fifo_ring.c" />
+    <ClCompile Include="data\fifo_ring_int.c" />
+    <ClCompile Include="data\fifo_ring_template.c" />
+    <ClCompile Include="data\iterator_bst_itr.c" />
+    <ClCompile Include="util\c_mem_load.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib_sunred.def" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{785865E8-9138-45FB-A966-4418AAB2E0CE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>lib_sunred</RootNamespace>
+    <ProjectName>clib_sunred</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>STATIC_LIB_OR_SHADOW_DLL_IMPORT;SR_GET_EXTERN_FUC;WIN32;_DEBUG;_LIB;SUNLIB_DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>lib_sunred.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;SUNLIB_DLL_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>lib_sunred.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

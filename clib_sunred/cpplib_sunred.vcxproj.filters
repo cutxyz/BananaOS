@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="data">
+      <UniqueIdentifier>{54d91f5e-66fb-4624-90e8-11ee9d76ca82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{59a43728-7464-4855-8701-37fa7f3b37f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\cpp">
+      <UniqueIdentifier>{5d272e5b-c71b-4378-b196-3c596993349a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{9e898de5-b738-432a-be78-ff431e22ba02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\cpp">
+      <UniqueIdentifier>{6d7ba7ff-f0e0-40dc-99b6-cc2ea45f4c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib_sunred">
+      <UniqueIdentifier>{144977c2-3bb7-4fc0-bb5f-386faefcad64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util\cpp\cppallocator_type.h">
+      <Filter>util\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="util\cpp\cppobject_type.h">
+      <Filter>util\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="data\cpp\bst.h">
+      <Filter>data\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="data\cpp\avltree.h">
+      <Filter>data\cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="data\cpp\bst_iterator.h">
+      <Filter>data\cpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib_sunred\win\cpp\algorithm_qsort_func.cpp">
+      <Filter>lib_sunred</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_sunred\win\cpp\data_bst_func.cpp">
+      <Filter>lib_sunred</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_sunred\win\cpp\data_fifo_func.cpp">
+      <Filter>lib_sunred</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_sunred\win\cpp\dlllib_sunred.cpp">
+      <Filter>lib_sunred</Filter>
+    </ClCompile>
+    <ClCompile Include="lib_sunred\win\cpp\util_mem_func.cpp">
+      <Filter>lib_sunred</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
